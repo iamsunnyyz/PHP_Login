@@ -1,0 +1,187 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.popup {
+  background-color: #f0f0f0;
+  width: 400px;
+  border-radius: 5px;
+  padding: 20px 25px 30px 25px;
+}
+.popup h2 {
+  margin-bottom: 30px;
+  color: #30475e;
+}
+.popup input {
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: transparent;
+  color: #30475e;
+  border: none;
+  border-bottom: 2px solid #30475e;
+  border-radius: 0;
+  padding: 5px 0;
+  font-size: 20px;
+  outline: none;
+}
+::placeholder {
+  color: grey;
+  font-size: 20px;
+}
+textarea,
+label {
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #30475e;
+  border-radius: 0;
+  padding: 5px 0;
+  font-size: 20px;
+  outline: none;
+}
+label {
+  cursor: pointer;
+  color: grey;
+  font-size: 20px;
+}
+.btn {
+  font-size: 20px;
+  color: white;
+  background-color: #30475e;
+  padding: 4px 10px;
+  border: none;
+  outline: none;
+  margin-top: 5px;
+}
+.new {
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.select {
+  margin-bottom: 20px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid #30475e;
+  color: grey;
+  border-radius: 0;
+  padding: 5px 0;
+  font-size: 25px;
+  outline: none;
+}
+
+.logout {
+  margin: 20px;
+  position: absolute;
+  top: 0%;
+  left: 80%;
+  font-size: 20px;
+  display: flex;
+}
+.newproject span {
+  font-size: 25px;
+  font-weight: 800;
+  color: green;
+  margin-right: 10px;
+}
+.logout a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.newproject p {
+  background-color: green;
+  color: aliceblue;
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.exit {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+.project_details {
+  border: 1px solid rgb(25, 22, 22);
+  border-radius: 10px;
+  max-width: 400px;
+  margin: 50px 50px 50px 100px;
+  padding: 0px 10px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project_details p {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 10px;
+}
+
+.project_details h1 {
+  margin: 10px;
+  color: #30475e;
+}
+
+.project_details h3 {
+  margin: 10px;
+  font-size: 25px;
+}
+.status {
+  width: 50%;
+  margin: 10px;
+  padding: 5px 0;
+  font-size: 25px;
+  outline: none;
+  background-color: transparent;
+  border: none;
+}
+a {
+  text-decoration: none;
+}
+.delete,
+.edit {
+  margin: 5px;
+  padding: 5px 15px;
+  background-color: red;
+  color: aliceblue;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.edit {
+  background-color: blue;
+}
+
+#login{
+  width : 100%;
+  height: 100%;
+  background-image: url("https://www.jain.software/wp-content/uploads/2018/04/Software-Development-jain-software.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ #register{
+  width : 100%;
+  height: 100%;
+  background-image: url("https://www.jain.software/wp-content/uploads/2018/04/Software-Development-jain-software.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
